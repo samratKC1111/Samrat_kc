@@ -1,5 +1,42 @@
 body{
-  background-color: black;
-  text-background: white;
-  height: auto;
+  background: #lalala; 
+  color: #00ff00; 
+  font-family: 'courier new', monospace;
+}
+
+.terminal {
+  background: #000;
+  border: 1px solid #333;
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 8px;
+}
+
+.top-bar {
+  background: #333;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50px; 
+  display: inline-block;
+  margin-right: 5px;
+}
+.red {
+  background: #ffbd2e;
+}
+
+.green {
+  background: #27c93f;
+}
+
+.yellow {
+  background: #ff5f56;
+}
+
+.content { 
+  paddint: 20px;
 }
